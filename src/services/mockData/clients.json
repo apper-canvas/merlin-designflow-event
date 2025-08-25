@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@email.com",
+    "phone": "+1 (555) 234-5678",
+    "location": "Manhattan, NY",
+    "clientSince": "2024-01-15T00:00:00Z",
+    "preferredStyle": "Modern",
+    "notes": "Prefers minimalist design, high-quality materials"
+  },
+  {
+    "Id": 2,
+    "name": "Michael Chen",
+    "email": "michael.chen@email.com",
+    "phone": "+1 (555) 345-6789",
+    "location": "Malibu, CA",
+    "clientSince": "2024-02-01T00:00:00Z",
+    "preferredStyle": "Coastal Contemporary",
+    "notes": "Loves natural materials and ocean-inspired elements"
+  },
+  {
+    "Id": 3,
+    "name": "TechCorp Solutions",
+    "email": "facilities@techcorp.com",
+    "phone": "+1 (555) 456-7890",
+    "location": "Seattle, WA",
+    "clientSince": "2023-11-01T00:00:00Z",
+    "preferredStyle": "Modern Corporate",
+    "notes": "Focus on employee productivity and collaboration spaces"
+  },
+  {
+    "Id": 4,
+    "name": "Urban Hospitality Group",
+    "email": "design@urbanhospitality.com",
+    "phone": "+1 (555) 567-8901",
+    "location": "Austin, TX",
+    "clientSince": "2023-08-01T00:00:00Z",
+    "preferredStyle": "Boutique Luxury",
+    "notes": "Boutique hotel chain, values unique design for each property"
+  },
+  {
+    "Id": 5,
+    "name": "Emma Rodriguez",
+    "email": "emma.rodriguez@email.com",
+    "phone": "+1 (555) 678-9012",
+    "location": "Brooklyn, NY",
+    "clientSince": "2024-01-08T00:00:00Z",
+    "preferredStyle": "Urban Contemporary",
+    "notes": "Small space specialist, values multifunctional design"
+  },
+  {
+    "Id": 6,
+    "name": "Westside Medical Group",
+    "email": "admin@westsidemedical.com",
+    "phone": "+1 (555) 789-0123",
+    "location": "Denver, CO",
+    "clientSince": "2024-02-15T00:00:00Z",
+    "preferredStyle": "Modern Healthcare",
+    "notes": "Patient-centered design, compliance with healthcare regulations"
+  },
+  {
+    "Id": 7,
+    "name": "Patricia Williams",
+    "email": "patricia.williams@email.com",
+    "phone": "+1 (555) 890-1234",
+    "location": "Miami, FL",
+    "clientSince": "2023-09-12T00:00:00Z",
+    "preferredStyle": "Tropical Modern",
+    "notes": "Loves vibrant colors and tropical elements"
+  },
+  {
+    "Id": 8,
+    "name": "Richard Taylor",
+    "email": "richard.taylor@email.com",
+    "phone": "+1 (555) 901-2345",
+    "location": "Chicago, IL",
+    "clientSince": "2023-10-20T00:00:00Z",
+    "preferredStyle": "Industrial Chic",
+    "notes": "Loft living enthusiast, prefers exposed brick and metal accents"
+  }
+]

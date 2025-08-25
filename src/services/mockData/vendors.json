@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "name": "Premium Furniture Co.",
+    "email": "sales@premiumfurniture.com",
+    "phone": "+1 (555) 123-4567",
+    "category": "Furniture",
+    "location": "Los Angeles, CA",
+    "rating": 5,
+    "projectCount": 12,
+    "specialties": ["Modern Furniture", "Custom Pieces", "Luxury Sofas"],
+    "notes": "Excellent quality and delivery times"
+  },
+  {
+    "Id": 2,
+    "name": "Luxe Lighting Solutions",
+    "email": "info@luxelighting.com",
+    "phone": "+1 (555) 234-5678",
+    "category": "Lighting",
+    "location": "New York, NY",
+    "rating": 4,
+    "projectCount": 8,
+    "specialties": ["Designer Fixtures", "Custom Lighting", "Smart Systems"],
+    "notes": "Great selection of contemporary fixtures"
+  },
+  {
+    "Id": 3,
+    "name": "Artisan Millwork Studio",
+    "email": "contact@artisanmillwork.com",
+    "phone": "+1 (555) 345-6789",
+    "category": "Millwork",
+    "location": "Portland, OR",
+    "rating": 5,
+    "projectCount": 15,
+    "specialties": ["Custom Cabinetry", "Built-ins", "Fine Woodwork"],
+    "notes": "Exceptional craftsmanship, worth the premium"
+  },
+  {
+    "Id": 4,
+    "name": "Metro Tile & Stone",
+    "email": "orders@metrotile.com",
+    "phone": "+1 (555) 456-7890",
+    "category": "Materials",
+    "location": "Chicago, IL",
+    "rating": 4,
+    "projectCount": 20,
+    "specialties": ["Natural Stone", "Designer Tiles", "Flooring"],
+    "notes": "Reliable supplier with competitive pricing"
+  },
+  {
+    "Id": 5,
+    "name": "Textile Trends Inc.",
+    "email": "design@textiletrends.com",
+    "phone": "+1 (555) 567-8901",
+    "category": "Textiles",
+    "location": "Atlanta, GA",
+    "rating": 4,
+    "projectCount": 9,
+    "specialties": ["Designer Fabrics", "Custom Drapery", "Upholstery"],
+    "notes": "Wide selection of luxury fabrics"
+  },
+  {
+    "Id": 6,
+    "name": "Elite Home Electronics",
+    "email": "sales@elitehometech.com",
+    "phone": "+1 (555) 678-9012",
+    "category": "Technology",
+    "location": "Austin, TX",
+    "rating": 4,
+    "projectCount": 6,
+    "specialties": ["Smart Home", "Audio Visual", "Home Automation"],
+    "notes": "Cutting-edge technology solutions"
+  },
+  {
+    "Id": 7,
+    "name": "Garden & Patio Design",
+    "email": "info@gardenpatiodesign.com",
+    "phone": "+1 (555) 789-0123",
+    "category": "Outdoor",
+    "location": "San Diego, CA",
+    "rating": 5,
+    "projectCount": 11,
+    "specialties": ["Outdoor Furniture", "Landscaping", "Patio Design"],
+    "notes": "Beautiful outdoor spaces, weather-resistant products"
+  },
+  {
+    "Id": 8,
+    "name": "Classic Art Gallery",
+    "email": "curator@classicartgallery.com",
+    "phone": "+1 (555) 890-1234",
+    "category": "Art & Decor",
+    "location": "Miami, FL",
+    "rating": 4,
+    "projectCount": 7,
+    "specialties": ["Original Artwork", "Sculpture", "Custom Framing"],
+    "notes": "Curated collection of contemporary and classic pieces"
+  },
+  {
+    "Id": 9,
+    "name": "Precision Installation Services",
+    "email": "service@precisioninstall.com",
+    "phone": "+1 (555) 901-2345",
+    "category": "Installation",
+    "location": "Denver, CO",
+    "rating": 5,
+    "projectCount": 25,
+    "specialties": ["Furniture Assembly", "Fixture Installation", "Project Coordination"],
+    "notes": "Reliable and professional installation team"
+  },
+  {
+    "Id": 10,
+    "name": "Sustainable Materials Co.",
+    "email": "info@sustainablematerials.com",
+    "phone": "+1 (555) 012-3456",
+    "category": "Eco-Friendly",
+    "location": "Seattle, WA",
+    "rating": 4,
+    "projectCount": 5,
+    "specialties": ["Recycled Materials", "Sustainable Wood", "Eco Paint"],
+    "notes": "Great for environmentally conscious projects"
+  }
+]

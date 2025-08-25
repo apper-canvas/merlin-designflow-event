@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+/* Toast Styling */
+.Toastify__toast {
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(44, 62, 80, 0.1);
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  padding: 16px;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #27AE60 0%, #2ECC71 100%);
+  color: white;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #E74C3C 0%, #C0392B 100%);
+  color: white;
+}
+
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #F39C12 0%, #E67E22 100%);
+  color: white;
+}
+
+.Toastify__toast-container {
+  width: 380px;
+  z-index: 9999;
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #FFFFFF;
+  color: #2C3E50;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Grid Pattern Overlay */
+.grid-pattern {
+  background-image: 
+    linear-gradient(rgba(44, 62, 80, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(44, 62, 80, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAFAFA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8B7355;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7A6249;
+}
+
+/* Text Gradient */
+.text-gradient {
+  background: linear-gradient(135deg, #E67E22 0%, #F39C12 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

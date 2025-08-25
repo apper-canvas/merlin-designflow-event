@@ -1,0 +1,306 @@
+[
+  {
+    "Id": 1,
+    "name": "Modern Downtown Loft",
+    "client": "Sarah Johnson",
+    "clientEmail": "sarah.johnson@email.com",
+    "clientPhone": "+1 (555) 234-5678",
+    "status": "Active",
+    "projectType": "Residential",
+    "budget": 85000,
+    "spent": 42500,
+    "startDate": "2024-01-15T00:00:00Z",
+    "endDate": "2024-04-15T00:00:00Z",
+    "location": "Downtown Manhattan, NY",
+    "description": "Complete interior redesign of a 2-bedroom loft with modern aesthetic",
+    "designs": [
+      {
+        "Id": 1,
+        "name": "Living Room Concept",
+        "description": "Open-plan living space with minimalist design",
+        "status": "approved"
+      },
+      {
+        "Id": 2,
+        "name": "Master Bedroom Suite",
+        "description": "Contemporary bedroom with walk-in closet",
+        "status": "review"
+      }
+    ],
+    "milestones": [
+      {
+        "Id": 1,
+        "title": "Initial Consultation",
+        "description": "Meet client and assess space requirements",
+        "completed": true,
+        "dueDate": "2024-01-20",
+        "completedDate": "2024-01-18"
+      },
+      {
+        "Id": 2,
+        "title": "Design Concepts",
+        "description": "Present initial design concepts and mood boards",
+        "completed": true,
+        "dueDate": "2024-02-05",
+        "completedDate": "2024-02-03"
+      },
+      {
+        "Id": 3,
+        "title": "Final Design Approval",
+        "description": "Client approval of final designs",
+        "completed": false,
+        "dueDate": "2024-02-25"
+      }
+    ],
+    "budgetItems": [
+      {
+        "Id": 1,
+        "category": "Furniture",
+        "description": "Living room and bedroom furniture",
+        "amount": 35000
+      },
+      {
+        "Id": 2,
+        "category": "Lighting",
+        "description": "Modern lighting fixtures throughout",
+        "amount": 12000
+      },
+      {
+        "Id": 3,
+        "category": "Labor",
+        "description": "Installation and project management",
+        "amount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "name": "Coastal Villa Renovation",
+    "client": "Michael Chen",
+    "clientEmail": "michael.chen@email.com",
+    "clientPhone": "+1 (555) 345-6789",
+    "status": "Planning",
+    "projectType": "Residential",
+    "budget": 150000,
+    "spent": 15000,
+    "startDate": "2024-02-01T00:00:00Z",
+    "endDate": "2024-07-01T00:00:00Z",
+    "location": "Malibu, CA",
+    "description": "Luxury coastal home renovation with ocean views",
+    "designs": [
+      {
+        "Id": 3,
+        "name": "Ocean View Living",
+        "description": "Expansive living area maximizing ocean views",
+        "status": "pending"
+      }
+    ],
+    "milestones": [
+      {
+        "Id": 4,
+        "title": "Site Assessment",
+        "description": "Evaluate existing structure and requirements",
+        "completed": true,
+        "dueDate": "2024-02-08",
+        "completedDate": "2024-02-06"
+      }
+    ],
+    "budgetItems": [
+      {
+        "Id": 4,
+        "category": "Materials",
+        "description": "High-end finishes and materials",
+        "amount": 75000
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "name": "Corporate Office Redesign",
+    "client": "TechCorp Solutions",
+    "clientEmail": "facilities@techcorp.com",
+    "clientPhone": "+1 (555) 456-7890",
+    "status": "Execution",
+    "projectType": "Commercial",
+    "budget": 200000,
+    "spent": 125000,
+    "startDate": "2023-11-01T00:00:00Z",
+    "endDate": "2024-03-01T00:00:00Z",
+    "location": "Seattle, WA",
+    "description": "Modern office space for 200+ employees with collaboration areas",
+    "designs": [
+      {
+        "Id": 4,
+        "name": "Open Office Layout",
+        "description": "Flexible workspace with collaboration zones",
+        "status": "approved"
+      },
+      {
+        "Id": 5,
+        "name": "Executive Conference Room",
+        "description": "Premium conference space with AV integration",
+        "status": "approved"
+      }
+    ],
+    "milestones": [
+      {
+        "Id": 5,
+        "title": "Space Planning",
+        "description": "Optimize office layout for productivity",
+        "completed": true,
+        "dueDate": "2023-11-15",
+        "completedDate": "2023-11-12"
+      },
+      {
+        "Id": 6,
+        "title": "Installation Phase 1",
+        "description": "Begin furniture and fixture installation",
+        "completed": false,
+        "dueDate": "2024-02-15"
+      }
+    ],
+    "budgetItems": [
+      {
+        "Id": 5,
+        "category": "Furniture",
+        "description": "Office furniture and workstations",
+        "amount": 120000
+      },
+      {
+        "Id": 6,
+        "category": "Technology",
+        "description": "AV equipment and smart office features",
+        "amount": 50000
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "name": "Boutique Hotel Lobby",
+    "client": "Urban Hospitality Group",
+    "clientEmail": "design@urbanhospitality.com",
+    "clientPhone": "+1 (555) 567-8901",
+    "status": "Completed",
+    "projectType": "Hospitality",
+    "budget": 120000,
+    "spent": 118000,
+    "startDate": "2023-08-01T00:00:00Z",
+    "endDate": "2023-12-15T00:00:00Z",
+    "location": "Austin, TX",
+    "description": "Luxury boutique hotel lobby and common areas",
+    "designs": [
+      {
+        "Id": 6,
+        "name": "Grand Entrance Lobby",
+        "description": "Sophisticated entry with custom lighting",
+        "status": "approved"
+      }
+    ],
+    "milestones": [
+      {
+        "Id": 7,
+        "title": "Concept Development",
+        "description": "Create unique hospitality design concept",
+        "completed": true,
+        "dueDate": "2023-08-15",
+        "completedDate": "2023-08-12"
+      },
+      {
+        "Id": 8,
+        "title": "Project Completion",
+        "description": "Final walkthrough and handover",
+        "completed": true,
+        "dueDate": "2023-12-15",
+        "completedDate": "2023-12-10"
+      }
+    ],
+    "budgetItems": [
+      {
+        "Id": 7,
+        "category": "Custom Millwork",
+        "description": "Bespoke reception desk and fixtures",
+        "amount": 45000
+      },
+      {
+        "Id": 8,
+        "category": "Art & Decor",
+        "description": "Curated art collection and accessories",
+        "amount": 35000
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "name": "Urban Studio Apartment",
+    "client": "Emma Rodriguez",
+    "clientEmail": "emma.rodriguez@email.com",
+    "clientPhone": "+1 (555) 678-9012",
+    "status": "Active",
+    "projectType": "Residential",
+    "budget": 35000,
+    "spent": 18000,
+    "startDate": "2024-01-08T00:00:00Z",
+    "endDate": "2024-03-08T00:00:00Z",
+    "location": "Brooklyn, NY",
+    "description": "Maximize small studio space with smart storage solutions",
+    "designs": [
+      {
+        "Id": 7,
+        "name": "Space-Saving Layout",
+        "description": "Multi-functional furniture arrangement",
+        "status": "review"
+      }
+    ],
+    "milestones": [
+      {
+        "Id": 9,
+        "title": "Space Analysis",
+        "description": "Assess current layout and storage needs",
+        "completed": true,
+        "dueDate": "2024-01-15",
+        "completedDate": "2024-01-12"
+      }
+    ],
+    "budgetItems": [
+      {
+        "Id": 9,
+        "category": "Storage Solutions",
+        "description": "Custom built-ins and organization systems",
+        "amount": 20000
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "name": "Medical Office Suite",
+    "client": "Westside Medical Group",
+    "clientEmail": "admin@westsidemedical.com",
+    "clientPhone": "+1 (555) 789-0123",
+    "status": "On Hold",
+    "projectType": "Healthcare",
+    "budget": 95000,
+    "spent": 5000,
+    "startDate": "2024-02-15T00:00:00Z",
+    "endDate": "2024-05-15T00:00:00Z",
+    "location": "Denver, CO",
+    "description": "Modern medical office with patient-centered design",
+    "designs": [],
+    "milestones": [
+      {
+        "Id": 10,
+        "title": "Regulatory Review",
+        "description": "Ensure compliance with healthcare regulations",
+        "completed": false,
+        "dueDate": "2024-03-01"
+      }
+    ],
+    "budgetItems": [
+      {
+        "Id": 10,
+        "category": "Specialized Equipment",
+        "description": "Medical-grade furniture and fixtures",
+        "amount": 55000
+      }
+    ]
+  }
+]
