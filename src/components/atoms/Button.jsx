@@ -1,10 +1,12 @@
-import { forwardRef } from "react"
-import { cn } from "@/utils/cn"
+import React, { forwardRef } from "react";
+import { cn } from "@/utils/cn";
 
 const Button = forwardRef(({ 
   className, 
   variant = "default", 
   size = "default", 
+  loading = false,
+  disabled,
   children, 
   ...props 
 }, ref) => {
@@ -23,9 +25,10 @@ const Button = forwardRef(({
           "h-10 px-4 text-sm": size === "default",
           "h-12 px-6 text-base": size === "lg",
         },
-        "rounded-lg",
+"rounded-lg",
         className
       )}
+      disabled={disabled || loading}
       ref={ref}
       {...props}
     >
