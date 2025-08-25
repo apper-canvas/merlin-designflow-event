@@ -1,9 +1,11 @@
 import { useState } from "react"
+import { useNavigate } from "react-router-dom"
 import Button from "@/components/atoms/Button"
 import ApperIcon from "@/components/ApperIcon"
 import { motion } from "framer-motion"
 
 const Header = ({ onMenuToggle, title }) => {
+  const navigate = useNavigate()
   const [showNotifications, setShowNotifications] = useState(false)
 
   return (
@@ -64,9 +66,13 @@ const Header = ({ onMenuToggle, title }) => {
                 </div>
               </motion.div>
             )}
-          </div>
+</div>
           
-          <Button variant="accent" size="sm">
+          <Button 
+            variant="accent" 
+            size="sm"
+            onClick={() => navigate("/projects/new")}
+          >
             <ApperIcon name="Plus" className="h-4 w-4 mr-2" />
             New Project
           </Button>
