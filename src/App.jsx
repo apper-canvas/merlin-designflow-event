@@ -5,6 +5,7 @@ import Projects from "@/components/pages/Projects"
 import ProjectNew from "@/components/pages/ProjectNew"
 import ProjectDetails from "@/components/pages/ProjectDetails"
 import Leads from "@/components/pages/Leads"
+import LeadNew from "@/components/pages/LeadNew"
 import Clients from "@/components/pages/Clients"
 import Vendors from "@/components/pages/Vendors"
 import Finances from "@/components/pages/Finances"
@@ -19,8 +20,9 @@ function App() {
           <Route index element={<Dashboard />} />
           <Route path="projects" element={<Projects />} />
           <Route path="projects/new" element={<ProjectNew />} />
-          <Route path="projects/:id" element={<ProjectDetails />} />
+<Route path="projects/:id" element={<ProjectDetails />} />
           <Route path="leads" element={<Leads />} />
+          <Route path="leads/new" element={<LeadNew />} />
           <Route path="clients" element={<Clients />} />
           <Route path="vendors" element={<Vendors />} />
 <Route path="finances" element={<Finances />} />
