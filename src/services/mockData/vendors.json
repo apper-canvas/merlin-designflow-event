@@ -9,7 +9,30 @@
     "rating": 5,
     "projectCount": 12,
     "specialties": ["Modern Furniture", "Custom Pieces", "Luxury Sofas"],
-    "notes": "Excellent quality and delivery times"
+    "notes": "Excellent quality and delivery times",
+    "catalogs": [
+      {
+        "id": 1,
+        "name": "Modern Living 2024",
+        "category": "Furniture",
+        "items": 245,
+        "lastUpdated": "2024-01-15"
+      },
+      {
+        "id": 2,
+        "name": "Custom Solutions",
+        "category": "Furniture",
+        "items": 87,
+        "lastUpdated": "2024-02-01"
+      }
+    ],
+    "pricing": {
+      "tier": "Premium",
+      "discountRate": 15,
+      "minimumOrder": 5000,
+      "paymentTerms": "Net 30",
+      "averageMarkup": "2.2x"
+    }
   },
   {
     "Id": 2,
@@ -21,7 +44,23 @@
     "rating": 4,
     "projectCount": 8,
     "specialties": ["Designer Fixtures", "Custom Lighting", "Smart Systems"],
-    "notes": "Great selection of contemporary fixtures"
+    "notes": "Great selection of contemporary fixtures",
+    "catalogs": [
+      {
+        "id": 3,
+        "name": "Designer Collection",
+        "category": "Lighting",
+        "items": 156,
+        "lastUpdated": "2024-01-20"
+      }
+    ],
+    "pricing": {
+      "tier": "Standard",
+      "discountRate": 12,
+      "minimumOrder": 2500,
+      "paymentTerms": "Net 15",
+      "averageMarkup": "2.0x"
+    }
   },
   {
     "Id": 3,
@@ -33,7 +72,30 @@
     "rating": 5,
     "projectCount": 15,
     "specialties": ["Custom Cabinetry", "Built-ins", "Fine Woodwork"],
-    "notes": "Exceptional craftsmanship, worth the premium"
+    "notes": "Exceptional craftsmanship, worth the premium",
+    "catalogs": [
+      {
+        "id": 4,
+        "name": "Custom Cabinetry",
+        "category": "Millwork",
+        "items": 67,
+        "lastUpdated": "2024-02-10"
+      },
+      {
+        "id": 5,
+        "name": "Architectural Elements",
+        "category": "Millwork",
+        "items": 134,
+        "lastUpdated": "2024-01-25"
+      }
+    ],
+    "pricing": {
+      "tier": "Premium",
+      "discountRate": 8,
+      "minimumOrder": 10000,
+      "paymentTerms": "50% Deposit",
+      "averageMarkup": "3.0x"
+    }
   },
   {
     "Id": 4,
@@ -45,7 +107,30 @@
     "rating": 4,
     "projectCount": 20,
     "specialties": ["Natural Stone", "Designer Tiles", "Flooring"],
-    "notes": "Reliable supplier with competitive pricing"
+    "notes": "Reliable supplier with competitive pricing",
+    "catalogs": [
+      {
+        "id": 6,
+        "name": "Natural Stone Collection",
+        "category": "Materials",
+        "items": 289,
+        "lastUpdated": "2024-01-30"
+      },
+      {
+        "id": 7,
+        "name": "Designer Tiles 2024",
+        "category": "Materials",
+        "items": 345,
+        "lastUpdated": "2024-02-05"
+      }
+    ],
+    "pricing": {
+      "tier": "Standard",
+      "discountRate": 18,
+      "minimumOrder": 1500,
+      "paymentTerms": "Net 30",
+      "averageMarkup": "1.8x"
+    }
   },
   {
     "Id": 5,
@@ -57,7 +142,23 @@
     "rating": 4,
     "projectCount": 9,
     "specialties": ["Designer Fabrics", "Custom Drapery", "Upholstery"],
-    "notes": "Wide selection of luxury fabrics"
+    "notes": "Wide selection of luxury fabrics",
+    "catalogs": [
+      {
+        "id": 8,
+        "name": "Luxury Fabrics 2024",
+        "category": "Textiles",
+        "items": 412,
+        "lastUpdated": "2024-02-15"
+      }
+    ],
+    "pricing": {
+      "tier": "Premium",
+      "discountRate": 10,
+      "minimumOrder": 3000,
+      "paymentTerms": "Net 15",
+      "averageMarkup": "2.5x"
+    }
   },
   {
     "Id": 6,
@@ -69,7 +170,23 @@
     "rating": 4,
     "projectCount": 6,
     "specialties": ["Smart Home", "Audio Visual", "Home Automation"],
-    "notes": "Cutting-edge technology solutions"
+    "notes": "Cutting-edge technology solutions",
+    "catalogs": [
+      {
+        "id": 9,
+        "name": "Smart Home Systems",
+        "category": "Technology",
+        "items": 178,
+        "lastUpdated": "2024-02-08"
+      }
+    ],
+    "pricing": {
+      "tier": "Standard",
+      "discountRate": 15,
+      "minimumOrder": 4000,
+      "paymentTerms": "Net 30",
+      "averageMarkup": "1.9x"
+    }
   },
   {
     "Id": 7,
@@ -81,7 +198,23 @@
     "rating": 5,
     "projectCount": 11,
     "specialties": ["Outdoor Furniture", "Landscaping", "Patio Design"],
-    "notes": "Beautiful outdoor spaces, weather-resistant products"
+    "notes": "Beautiful outdoor spaces, weather-resistant products",
+    "catalogs": [
+      {
+        "id": 10,
+        "name": "Outdoor Living 2024",
+        "category": "Outdoor",
+        "items": 198,
+        "lastUpdated": "2024-01-18"
+      }
+    ],
+    "pricing": {
+      "tier": "Premium",
+      "discountRate": 12,
+      "minimumOrder": 6000,
+      "paymentTerms": "Net 30",
+      "averageMarkup": "2.3x"
+    }
   },
   {
     "Id": 8,
@@ -93,7 +226,23 @@
     "rating": 4,
     "projectCount": 7,
     "specialties": ["Original Artwork", "Sculpture", "Custom Framing"],
-    "notes": "Curated collection of contemporary and classic pieces"
+    "notes": "Curated collection of contemporary and classic pieces",
+    "catalogs": [
+      {
+        "id": 11,
+        "name": "Contemporary Collection",
+        "category": "Art & Decor",
+        "items": 89,
+        "lastUpdated": "2024-02-12"
+      }
+    ],
+    "pricing": {
+      "tier": "Premium",
+      "discountRate": 5,
+      "minimumOrder": 8000,
+      "paymentTerms": "50% Deposit",
+      "averageMarkup": "4.0x"
+    }
   },
   {
     "Id": 9,
@@ -105,7 +254,23 @@
     "rating": 5,
     "projectCount": 25,
     "specialties": ["Furniture Assembly", "Fixture Installation", "Project Coordination"],
-    "notes": "Reliable and professional installation team"
+    "notes": "Reliable and professional installation team",
+    "catalogs": [
+      {
+        "id": 12,
+        "name": "Installation Services",
+        "category": "Services",
+        "items": 45,
+        "lastUpdated": "2024-01-28"
+      }
+    ],
+    "pricing": {
+      "tier": "Standard",
+      "discountRate": 0,
+      "minimumOrder": 500,
+      "paymentTerms": "Net 15",
+      "averageMarkup": "1.5x"
+    }
   },
   {
     "Id": 10,
@@ -117,6 +282,22 @@
     "rating": 4,
     "projectCount": 5,
     "specialties": ["Recycled Materials", "Sustainable Wood", "Eco Paint"],
-    "notes": "Great for environmentally conscious projects"
+    "notes": "Great for environmentally conscious projects",
+    "catalogs": [
+      {
+        "id": 13,
+        "name": "Eco-Friendly Materials",
+        "category": "Eco-Friendly",
+        "items": 167,
+        "lastUpdated": "2024-02-03"
+      }
+    ],
+    "pricing": {
+      "tier": "Standard",
+      "discountRate": 20,
+      "minimumOrder": 2000,
+      "paymentTerms": "Net 30",
+      "averageMarkup": "2.1x"
+    }
   }
 ]
