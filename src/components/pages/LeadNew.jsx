@@ -145,7 +145,7 @@ const LeadNew = () => {
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <FormField label="Full Name" required error={errors.name}>
+<FormField label="Full Name" required error={errors.name}>
                   <Input
                     value={formData.name}
                     onChange={(e) => handleChange('name', e.target.value)}
@@ -154,7 +154,7 @@ const LeadNew = () => {
                   />
                 </FormField>
 
-                <FormField label="Email Address" required error={errors.email}>
+<FormField label="Email Address" required error={errors.email}>
                   <Input
                     type="email"
                     value={formData.email}
@@ -164,7 +164,7 @@ const LeadNew = () => {
                   />
                 </FormField>
 
-                <FormField label="Phone Number" required error={errors.phone}>
+<FormField label="Phone Number" required error={errors.phone}>
                   <Input
                     type="tel"
                     value={formData.phone}
@@ -185,7 +185,7 @@ const LeadNew = () => {
                   </Select>
                 </FormField>
 
-                <FormField label="Budget Range" required error={errors.budget}>
+<FormField label="Budget Range" required error={errors.budget}>
                   <Select
                     value={formData.budget}
                     onChange={(e) => handleChange('budget', e.target.value)}
