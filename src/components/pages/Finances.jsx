@@ -1,27 +1,28 @@
-import { useState, useEffect } from "react"
-import { motion } from "framer-motion"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/atoms/Card"
-import Button from "@/components/atoms/Button"
-import Select from "@/components/atoms/Select"
-import StatCard from "@/components/molecules/StatCard"
-import ProgressRing from "@/components/molecules/ProgressRing"
-import Badge from "@/components/atoms/Badge"
-import Loading from "@/components/ui/Loading"
-import Error from "@/components/ui/Error"
-import Empty from "@/components/ui/Empty"
-import ApperIcon from "@/components/ApperIcon"
-import { financeService } from "@/services/api/financeService"
-import { projectService } from "@/services/api/projectService"
-import { toast } from "react-toastify"
-import { format } from "date-fns"
+import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/atoms/Card";
+import { financeService } from "@/services/api/financeService";
+import { projectService } from "@/services/api/projectService";
+import { toast } from "react-toastify";
+import { format } from "date-fns";
+import InvoiceModal from "@/components/organisms/InvoiceModal";
+import ApperIcon from "@/components/ApperIcon";
+import ProgressRing from "@/components/molecules/ProgressRing";
+import StatCard from "@/components/molecules/StatCard";
+import Select from "@/components/atoms/Select";
+import Button from "@/components/atoms/Button";
+import Badge from "@/components/atoms/Badge";
+import Error from "@/components/ui/Error";
+import Empty from "@/components/ui/Empty";
+import Loading from "@/components/ui/Loading";
 
 const Finances = () => {
   const [finances, setFinances] = useState([])
   const [projects, setProjects] = useState([])
   const [loading, setLoading] = useState(true)
-  const [error, setError] = useState("")
+const [error, setError] = useState("")
   const [selectedPeriod, setSelectedPeriod] = useState("month")
-
+  const [showInvoiceModal, setShowInvoiceModal] = useState(false)
   const loadFinances = async () => {
     try {
       setLoading(true)
@@ -88,7 +89,15 @@ const Finances = () => {
       case "income": return "TrendingUp"
       case "expense": return "TrendingDown"
       default: return "DollarSign"
-    }
+}
+  }
+
+  const handleNewInvoice = () => {
+    setShowInvoiceModal(true)
+  }
+
+  const handleInvoiceSuccess = () => {
+    loadFinances()
   }
 
   return (
@@ -119,7 +128,11 @@ const Finances = () => {
             <option value="year">This Year</option>
           </Select>
           
-          <Button variant="accent" className="flex items-center gap-2">
+<Button 
+            variant="accent" 
+            className="flex items-center gap-2"
+            onClick={handleNewInvoice}
+          >
             <ApperIcon name="Plus" className="h-4 w-4" />
             New Invoice
           </Button>
@@ -313,7 +326,13 @@ const Finances = () => {
             </CardContent>
           </Card>
         </motion.div>
-      </div>
+</div>
+
+      <InvoiceModal
+        isOpen={showInvoiceModal}
+        onClose={() => setShowInvoiceModal(false)}
+        onSuccess={handleInvoiceSuccess}
+      />
     </div>
   )
 }
