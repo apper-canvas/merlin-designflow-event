@@ -8,7 +8,7 @@ import Vendors from "@/components/pages/Vendors"
 import Finances from "@/components/pages/Finances"
 import Tasks from "@/components/pages/Tasks"
 import Settings from "@/components/pages/Settings"
-
+import PurchaseOrders from "@/components/pages/PurchaseOrders"
 function App() {
   return (
     <BrowserRouter>
@@ -19,7 +19,8 @@ function App() {
           <Route path="leads" element={<Leads />} />
           <Route path="clients" element={<Clients />} />
           <Route path="vendors" element={<Vendors />} />
-          <Route path="finances" element={<Finances />} />
+<Route path="finances" element={<Finances />} />
+          <Route path="purchase-orders" element={<PurchaseOrders />} />
           <Route path="tasks" element={<Tasks />} />
           <Route path="settings" element={<Settings />} />
         </Route>

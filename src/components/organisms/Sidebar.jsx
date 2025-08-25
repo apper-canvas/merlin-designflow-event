@@ -4,13 +4,14 @@ import ApperIcon from "@/components/ApperIcon"
 import { cn } from "@/utils/cn"
 
 const Sidebar = ({ isOpen, onClose, className = "" }) => {
-  const navItems = [
+const navItems = [
     { name: "Dashboard", path: "/", icon: "Home" },
     { name: "Projects", path: "/projects", icon: "FolderOpen" },
     { name: "Leads", path: "/leads", icon: "Users" },
     { name: "Clients", path: "/clients", icon: "UserCheck" },
     { name: "Vendors", path: "/vendors", icon: "Building2" },
     { name: "Finances", path: "/finances", icon: "DollarSign" },
+    { name: "Purchase Orders", path: "/purchase-orders", icon: "ShoppingCart" },
     { name: "Tasks", path: "/tasks", icon: "CheckSquare" },
     { name: "Settings", path: "/settings", icon: "Settings" },
   ]

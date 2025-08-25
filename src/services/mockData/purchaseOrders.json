@@ -1,0 +1,349 @@
+[
+  {
+    "Id": 1,
+    "vendorId": 1,
+    "title": "Modern Living Room Furniture Set",
+    "description": "Complete furniture set for the Downtown Loft project including sofa, coffee table, and accent chairs",
+    "status": "approved",
+    "priority": "high",
+    "totalAmount": 45000,
+    "expectedDelivery": "2024-03-15T00:00:00Z",
+    "actualDelivery": null,
+    "shippingAddress": "Downtown Loft Project, 123 Main St, Los Angeles, CA 90210",
+    "createdAt": "2024-02-01T10:00:00Z",
+    "updatedAt": "2024-02-15T14:30:00Z",
+    "lineItems": [
+      {
+        "description": "Premium Sectional Sofa - Charcoal",
+        "quantity": 1,
+        "unitPrice": 8500,
+        "specifications": "108\" L-shaped sectional with down cushions"
+      },
+      {
+        "description": "Modern Coffee Table - Walnut",
+        "quantity": 1,
+        "unitPrice": 2200,
+        "specifications": "60\" x 30\" solid walnut with steel base"
+      },
+      {
+        "description": "Accent Chairs - Leather",
+        "quantity": 2,
+        "unitPrice": 3400,
+        "specifications": "Mid-century modern design in cognac leather"
+      },
+      {
+        "description": "Side Tables",
+        "quantity": 2,
+        "unitPrice": 950,
+        "specifications": "Matching walnut finish with drawer storage"
+      }
+    ],
+    "approvalHistory": [
+      {
+        "from": "draft",
+        "to": "pending",
+        "approver": "Sarah Johnson",
+        "timestamp": "2024-02-10T09:00:00Z",
+        "notes": "Ready for review"
+      },
+      {
+        "from": "pending",
+        "to": "approved",
+        "approver": "Michael Chen",
+        "timestamp": "2024-02-15T14:30:00Z",
+        "notes": "Approved for Downtown Loft project. Expedite delivery."
+      }
+    ],
+    "trackingInfo": null
+  },
+  {
+    "Id": 2,
+    "vendorId": 2,
+    "title": "Designer Lighting Package",
+    "description": "Custom lighting fixtures for Corporate Office Redesign",
+    "status": "ordered",
+    "priority": "medium",
+    "totalAmount": 28500,
+    "expectedDelivery": "2024-03-20T00:00:00Z",
+    "actualDelivery": null,
+    "shippingAddress": "TechCorp Headquarters, 456 Business Ave, New York, NY 10001",
+    "createdAt": "2024-02-05T11:30:00Z",
+    "updatedAt": "2024-02-18T16:45:00Z",
+    "lineItems": [
+      {
+        "description": "Conference Room Chandelier",
+        "quantity": 1,
+        "unitPrice": 12000,
+        "specifications": "Custom 8-light crystal chandelier with dimming"
+      },
+      {
+        "description": "Executive Office Pendants",
+        "quantity": 6,
+        "unitPrice": 1800,
+        "specifications": "Brushed brass with white glass shades"
+      },
+      {
+        "description": "Reception Desk Lighting",
+        "quantity": 1,
+        "unitPrice": 3900,
+        "specifications": "Linear LED strip lighting, color temperature adjustable"
+      }
+    ],
+    "approvalHistory": [
+      {
+        "from": "draft",
+        "to": "pending",
+        "approver": "Design Team",
+        "timestamp": "2024-02-12T10:15:00Z",
+        "notes": "Submitted for approval"
+      },
+      {
+        "from": "pending",
+        "to": "approved",
+        "approver": "Michael Chen",
+        "timestamp": "2024-02-16T13:20:00Z",
+        "notes": "Approved. Matches project specifications."
+      },
+      {
+        "from": "approved",
+        "to": "ordered",
+        "approver": "System",
+        "timestamp": "2024-02-18T16:45:00Z",
+        "notes": "Order sent to vendor"
+      }
+    ],
+    "trackingInfo": {
+      "trackingNumber": "TRK-45892341",
+      "carrier": "FedEx",
+      "estimatedDelivery": "2024-03-20T00:00:00Z",
+      "status": "in_transit",
+      "lastUpdate": "2024-02-20T08:30:00Z"
+    }
+  },
+  {
+    "Id": 3,
+    "vendorId": 3,
+    "title": "Custom Kitchen Cabinetry",
+    "description": "Handcrafted kitchen cabinets for Coastal Villa renovation",
+    "status": "pending",
+    "priority": "high",
+    "totalAmount": 85000,
+    "expectedDelivery": "2024-04-15T00:00:00Z",
+    "actualDelivery": null,
+    "shippingAddress": "Coastal Villa Project, 789 Ocean Drive, Malibu, CA 90265",
+    "createdAt": "2024-02-10T14:20:00Z",
+    "updatedAt": "2024-02-20T11:00:00Z",
+    "lineItems": [
+      {
+        "description": "Upper Cabinets - Shaker Style",
+        "quantity": 12,
+        "unitPrice": 3200,
+        "specifications": "Maple wood with soft-close hinges, 24\" depth"
+      },
+      {
+        "description": "Base Cabinets with Drawers",
+        "quantity": 8,
+        "unitPrice": 4800,
+        "specifications": "Full extension drawer slides, dovetail construction"
+      },
+      {
+        "description": "Kitchen Island Cabinet",
+        "quantity": 1,
+        "unitPrice": 15000,
+        "specifications": "8ft island with seating overhang and storage"
+      },
+      {
+        "description": "Pantry Cabinet",
+        "quantity": 1,
+        "unitPrice": 8600,
+        "specifications": "Floor to ceiling with pull-out shelves"
+      }
+    ],
+    "approvalHistory": [
+      {
+        "from": "draft",
+        "to": "pending",
+        "approver": "Emily Rodriguez",
+        "timestamp": "2024-02-20T11:00:00Z",
+        "notes": "Large order requiring director approval due to amount"
+      }
+    ],
+    "trackingInfo": null
+  },
+  {
+    "Id": 4,
+    "vendorId": 4,
+    "title": "Natural Stone and Tile Package",
+    "description": "Premium materials for Boutique Hotel bathroom renovation",
+    "status": "delivered",
+    "priority": "medium",
+    "totalAmount": 32000,
+    "expectedDelivery": "2024-02-15T00:00:00Z",
+    "actualDelivery": "2024-02-14T10:30:00Z",
+    "shippingAddress": "Boutique Hotel Project, 321 Luxury Lane, Miami, FL 33101",
+    "createdAt": "2024-01-20T09:15:00Z",
+    "updatedAt": "2024-02-14T10:30:00Z",
+    "lineItems": [
+      {
+        "description": "Carrara Marble Slabs",
+        "quantity": 15,
+        "unitPrice": 1200,
+        "specifications": "Premium grade, book-matched veining"
+      },
+      {
+        "description": "Porcelain Floor Tiles",
+        "quantity": 800,
+        "unitPrice": 18,
+        "specifications": "24x24 rectified, matte finish"
+      },
+      {
+        "description": "Mosaic Wall Tiles",
+        "quantity": 50,
+        "unitPrice": 85,
+        "specifications": "12x12 sheets, natural stone blend"
+      }
+    ],
+    "approvalHistory": [
+      {
+        "from": "draft",
+        "to": "pending",
+        "approver": "Design Team",
+        "timestamp": "2024-01-25T14:00:00Z",
+        "notes": "Ready for review"
+      },
+      {
+        "from": "pending",
+        "to": "approved",
+        "approver": "Sarah Johnson",
+        "timestamp": "2024-01-28T16:20:00Z",
+        "notes": "Approved. Excellent material selection."
+      },
+      {
+        "from": "approved",
+        "to": "ordered",
+        "approver": "System",
+        "timestamp": "2024-01-30T09:00:00Z",
+        "notes": "Order sent to vendor"
+      },
+      {
+        "from": "ordered",
+        "to": "delivered",
+        "approver": "System",
+        "timestamp": "2024-02-14T10:30:00Z",
+        "notes": "Delivery confirmed by project manager"
+      }
+    ],
+    "trackingInfo": {
+      "trackingNumber": "TRK-23847561",
+      "carrier": "UPS Freight",
+      "estimatedDelivery": "2024-02-15T00:00:00Z",
+      "actualDelivery": "2024-02-14T10:30:00Z",
+      "status": "delivered"
+    }
+  },
+  {
+    "Id": 5,
+    "vendorId": 5,
+    "title": "Luxury Textile Package",
+    "description": "Custom drapery and upholstery fabrics for Urban Studio project",
+    "status": "draft",
+    "priority": "low",
+    "totalAmount": 18500,
+    "expectedDelivery": "2024-03-30T00:00:00Z",
+    "actualDelivery": null,
+    "shippingAddress": "Urban Studio Project, 654 City Center, Atlanta, GA 30303",
+    "createdAt": "2024-02-18T15:45:00Z",
+    "updatedAt": "2024-02-18T15:45:00Z",
+    "lineItems": [
+      {
+        "description": "Silk Curtain Panels",
+        "quantity": 8,
+        "unitPrice": 850,
+        "specifications": "108\" length, blackout lining included"
+      },
+      {
+        "description": "Velvet Upholstery Fabric",
+        "quantity": 25,
+        "unitPrice": 180,
+        "specifications": "Emerald green, commercial grade"
+      },
+      {
+        "description": "Throw Pillows - Custom",
+        "quantity": 12,
+        "unitPrice": 125,
+        "specifications": "Various textures and patterns"
+      },
+      {
+        "description": "Area Rug - Hand Knotted",
+        "quantity": 1,
+        "unitPrice": 12000,
+        "specifications": "9x12 Persian design, wool and silk blend"
+      }
+    ],
+    "approvalHistory": [],
+    "trackingInfo": null
+  },
+  {
+    "Id": 6,
+    "vendorId": 6,
+    "title": "Smart Home Technology Suite",
+    "description": "Complete home automation system for Modern Downtown Loft",
+    "status": "approved",
+    "priority": "medium",
+    "totalAmount": 24000,
+    "expectedDelivery": "2024-03-25T00:00:00Z",
+    "actualDelivery": null,
+    "shippingAddress": "Downtown Loft Project, 123 Main St, Los Angeles, CA 90210",
+    "createdAt": "2024-02-12T13:30:00Z",
+    "updatedAt": "2024-02-19T10:15:00Z",
+    "lineItems": [
+      {
+        "description": "Central Control Hub",
+        "quantity": 1,
+        "unitPrice": 3500,
+        "specifications": "Touch screen panel with voice control"
+      },
+      {
+        "description": "Smart Lighting Switches",
+        "quantity": 15,
+        "unitPrice": 180,
+        "specifications": "Dimmer compatible, WiFi enabled"
+      },
+      {
+        "description": "Security Camera System",
+        "quantity": 1,
+        "unitPrice": 4200,
+        "specifications": "4K resolution, cloud storage included"
+      },
+      {
+        "description": "Smart Thermostat",
+        "quantity": 2,
+        "unitPrice": 380,
+        "specifications": "Zone control with app integration"
+      },
+      {
+        "description": "Audio System - Whole House",
+        "quantity": 1,
+        "unitPrice": 15000,
+        "specifications": "Multi-zone with ceiling speakers"
+      }
+    ],
+    "approvalHistory": [
+      {
+        "from": "draft",
+        "to": "pending",
+        "approver": "Tech Team",
+        "timestamp": "2024-02-16T11:20:00Z",
+        "notes": "Technology package ready for review"
+      },
+      {
+        "from": "pending",
+        "to": "approved",
+        "approver": "Michael Chen",
+        "timestamp": "2024-02-19T10:15:00Z",
+        "notes": "Approved. Coordinate with electrical contractor."
+      }
+    ],
+    "trackingInfo": null
+  }
+]
